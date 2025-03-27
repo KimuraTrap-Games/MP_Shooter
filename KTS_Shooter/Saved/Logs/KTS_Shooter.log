@@ -1702,3 +1702,230 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.03.27-06.38.18:203][562]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 333.180206
 [2025.03.27-06.38.19:204][565]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.03.27-06.38.19:204][565]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 333.863342, Update Interval: 323.256927
+[2025.03.27-06.43.44:905][542]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 659.882019
+[2025.03.27-06.43.45:905][545]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.27-06.43.45:905][546]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 660.548767, Update Interval: 305.403595
+[2025.03.27-06.44.45:578][724]LogHttp: Warning: 000006E71C5A6200: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 0 (Found bundle for host: 0x6e69d040f90 [serially])
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 5 (Closing connection)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1D6A6D55-4B79-7AA1-C275-319836643D01%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 8 (  Trying 54.210.225.194:443...)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (54.210.225.194) port 443)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 11 (SSL reusing session ID)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 22 (Server certificate:)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.03.27-06.44.45:579][724]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.03.27-06.44.45:579][725]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.03.27-06.44.45:579][725]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 29 (using HTTP/1.1)
+[2025.03.27-06.44.45:579][725]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.03.27-06.44.45:579][725]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 31 (Closing connection)
+[2025.03.27-06.44.45:579][725]LogHttp: Warning: 000006E71C5A6200: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.03.27-06.45.45:278][903]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.03.27-06.45.50:157][478]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.03.27-06.45.51:309][596]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.03.27-06.45.51:310][596]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.03.27-06.45.51:380][596]LogStreaming: Display: FlushAsyncLoading(396): 1 QueuedPackages, 0 AsyncPackages
+[2025.03.27-06.45.52:091][596]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.03.27-06.45.52:262][599]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.03.27-06.45.56:354][ 52]LogSlate: Window 'BP_ThirdPersonCharacter' being destroyed
+[2025.03.27-06.46.30:254][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.03.27-06.46.31:016][984]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.27-06.46.31:068][984]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.03.27-06.46.31:118][984]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.03.27-06.46.31:118][984]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.03.27-06.46.31:126][984]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.03.27-06.46.31:126][984]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/KTS_MP_Shooter/KTS_Shooter/Saved/BP_ThirdPersonCharacterDE91B6A940EB15FAF3C367A965A2B793.tmp' to '../../../../../../Users/scott/Desktop/KTS_MP_Shooter/KTS_Shooter/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.03.27-06.46.31:131][984]LogFileHelpers: InternalPromptForCheckoutAndSave took 115.803 ms (total: 370.496 ms)
+[2025.03.27-06.46.31:185][984]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.27-06.46.31:185][984]LogContentValidation: Enabled validators:
+[2025.03.27-06.46.31:185][984]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.27-06.46.31:185][984]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.27-06.46.31:185][984]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.27-06.46.31:185][984]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.27-06.46.31:185][984]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.27-06.46.31:185][984]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.27-06.46.31:185][984]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2025.03.27-06.46.35:956][518]LogStreaming: Display: FlushAsyncLoading(587): 1 QueuedPackages, 0 AsyncPackages
+[2025.03.27-06.46.38:056][518]LogSlate: Window 'New Level' being destroyed
+[2025.03.27-06.46.38:061][518]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.03.27-06.46.38:069][518]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.27-06.46.38:069][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.27-06.46.38:069][518]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.03.27-06.46.38:087][518]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.27-06.46.38:091][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.03.27-06.46.38:102][518]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2025.03.27-06.46.38:102][518]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_1
+[2025.03.27-06.46.38:108][518]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.03.27-06.46.38:124][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.03.27-06.46.38:125][518]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.03.27-06.46.38:126][518]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.147ms to complete.
+[2025.03.27-06.46.51:828][ 29]LogSlate: Window 'Save Level As' being destroyed
+[2025.03.27-06.46.51:913][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.03.27-06.46.51:921][ 29]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/Lobby
+[2025.03.27-06.46.51:921][ 29]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/KTS_MP_Shooter/KTS_Shooter/Saved/LobbyE833DBAF42B1185DB26CA0B5DD755484.tmp' to '../../../../../../Users/scott/Desktop/KTS_MP_Shooter/KTS_Shooter/Content/ThirdPerson/Maps/Lobby.umap'
+[2025.03.27-06.46.51:950][ 29]LogFileHelpers: Saving map 'Lobby' took 0.115
+[2025.03.27-06.46.51:950][ 29]Cmd: MAP LOAD FILE="../../../../../../Users/scott/Desktop/KTS_MP_Shooter/KTS_Shooter/Content/ThirdPerson/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.03.27-06.46.51:981][ 29]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2025.03.27-06.46.51:981][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.27-06.46.51:994][ 29]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.27-06.46.51:996][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.03.27-06.46.51:998][ 29]LogStreaming: Display: FlushAsyncLoading(590): 1 QueuedPackages, 0 AsyncPackages
+[2025.03.27-06.46.51:999][ 29]LogAudio: Display: Audio Device (ID: 1) registered with world 'Lobby'.
+[2025.03.27-06.46.51:999][ 29]LogChaosDD: Creating Chaos Debug Draw Scene for world Lobby
+[2025.03.27-06.46.52:007][ 29]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.03.27-06.46.52:022][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.03.27-06.46.52:025][ 29]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.03.27-06.46.52:025][ 29]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.048ms to complete.
+[2025.03.27-06.46.52:067][ 29]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.27-06.46.52:067][ 29]LogContentValidation: Enabled validators:
+[2025.03.27-06.46.52:067][ 29]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.27-06.46.52:067][ 29]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.27-06.46.52:067][ 29]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.27-06.46.52:067][ 29]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.27-06.46.52:067][ 29]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.27-06.46.52:067][ 29]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.27-06.46.52:067][ 29]AssetCheck: /Game/ThirdPerson/Maps/Lobby Validating asset
+[2025.03.27-06.47.12:945][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.03.27-06.47.13:679][525]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.27-06.47.13:715][525]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.03.27-06.47.13:766][525]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.03.27-06.47.13:766][525]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.03.27-06.47.13:774][525]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.03.27-06.47.13:774][525]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/KTS_MP_Shooter/KTS_Shooter/Saved/BP_ThirdPersonCharacter6025147A460FAD3E0803BCA579AB5F9D.tmp' to '../../../../../../Users/scott/Desktop/KTS_MP_Shooter/KTS_Shooter/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.03.27-06.47.13:779][525]LogFileHelpers: InternalPromptForCheckoutAndSave took 100.344 ms (total: 470.840 ms)
+[2025.03.27-06.47.13:832][525]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.27-06.47.13:832][525]LogContentValidation: Enabled validators:
+[2025.03.27-06.47.13:832][525]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.27-06.47.13:832][525]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.27-06.47.13:832][525]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.27-06.47.13:832][525]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.27-06.47.13:832][525]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.27-06.47.13:832][525]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.27-06.47.13:833][525]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2025.03.27-06.47.17:112][915]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.03.27-06.47.17:116][915]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.27-06.47.17:116][915]LogPlayLevel: Display: Creating online subsystem for client :Context_6
+[2025.03.27-06.47.17:118][915]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2025.03.27-06.47.17:128][916]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Lobby
+[2025.03.27-06.47.17:131][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001810s)
+[2025.03.27-06.47.17:131][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Lobby.Lobby to /Game/ThirdPerson/Maps/UEDPIE_0_Lobby.Lobby (0.001851s)
+[2025.03.27-06.47.17:145][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.03.27-06.47.17:148][916]LogChaosDD: Creating Chaos Debug Draw Scene for world Lobby
+[2025.03.27-06.47.17:149][916]LogPlayLevel: PIE: World Init took: (0.001195s)
+[2025.03.27-06.47.17:150][916]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.03.27-06.47.17:150][916]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.27-06.47.17:150][916]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.27-06.47.17:150][916]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.27-06.47.17:150][916]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.27-06.47.17:150][916]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.03.27-06.47.17:150][916]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.27-06.47.17:150][916]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.03.27-06.47.17:150][916]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.27-06.47.17:150][916]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.27-06.47.17:150][916]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.27-06.47.17:150][916]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.27-06.47.17:152][916]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.03.27-06.47.17:166][916]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.03.27-06.47.17:166][916]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.27-06.47.17:166][916]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.27-06.47.17:166][916]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.27-06.47.17:167][916]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.03.27-06.47.17:167][916]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.03.27-06.47.17:169][916]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.03.27-06.47.17:169][916]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.03.27-06.47.17:169][916]LogInit: FAudioDevice initialized with ID 2.
+[2025.03.27-06.47.17:169][916]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lobby'.
+[2025.03.27-06.47.17:169][916]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.03.27-06.47.17:171][916]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.03.27-06.47.17:172][916]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Lobby.Lobby up for play (max tick rate 0) at 2025.03.27-01.47.17
+[2025.03.27-06.47.17:172][916]LogWorld: Bringing up level for play took: 0.000580
+[2025.03.27-06.47.17:177][916]PIE: Server logged in
+[2025.03.27-06.47.17:178][916]PIE: Play in editor total start time 0.063 seconds.
+[2025.03.27-06.47.20:595][316]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/Lobby"
+[2025.03.27-06.47.20:595][316]LogNet: Browse: /Game/ThirdPerson/Maps/Lobby
+[2025.03.27-06.47.20:595][316]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Lobby
+[2025.03.27-06.47.20:595][316]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Lobby
+[2025.03.27-06.47.20:596][316]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2025.03.27-06.47.20:596][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.27-06.47.20:635][316]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.27-06.47.20:637][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.03.27-06.47.20:638][316]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Lobby
+[2025.03.27-06.47.20:639][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000994s)
+[2025.03.27-06.47.20:639][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Lobby.Lobby to /Game/ThirdPerson/Maps/UEDPIE_0_Lobby.Lobby (0.001031s)
+[2025.03.27-06.47.20:639][316]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lobby'.
+[2025.03.27-06.47.20:639][316]LogChaosDD: Creating Chaos Debug Draw Scene for world Lobby
+[2025.03.27-06.47.20:640][316]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2025.03.27-06.47.20:640][316]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.03.27-06.47.20:642][316]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Lobby.Lobby up for play (max tick rate 0) at 2025.03.27-01.47.20
+[2025.03.27-06.47.20:642][316]LogWorld: Bringing up level for play took: 0.000414
+[2025.03.27-06.47.20:644][316]LogLoad: Took 0.049403 seconds to LoadMap(/Game/ThirdPerson/Maps/UEDPIE_0_Lobby)
+[2025.03.27-06.47.20:644][316]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/UEDPIE_0_Lobby
+[2025.03.27-06.47.21:510][419]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/Lobby"
+[2025.03.27-06.47.21:510][419]LogNet: Browse: /Game/ThirdPerson/Maps/Lobby
+[2025.03.27-06.47.21:510][419]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Lobby
+[2025.03.27-06.47.21:510][419]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Lobby
+[2025.03.27-06.47.21:510][419]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2025.03.27-06.47.21:510][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.27-06.47.21:556][419]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.27-06.47.21:558][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.03.27-06.47.21:559][419]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Lobby
+[2025.03.27-06.47.21:560][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001016s)
+[2025.03.27-06.47.21:560][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Lobby.Lobby to /Game/ThirdPerson/Maps/UEDPIE_0_Lobby.Lobby (0.001053s)
+[2025.03.27-06.47.21:560][419]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lobby'.
+[2025.03.27-06.47.21:560][419]LogChaosDD: Creating Chaos Debug Draw Scene for world Lobby
+[2025.03.27-06.47.21:561][419]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2025.03.27-06.47.21:561][419]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.03.27-06.47.21:562][419]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Lobby.Lobby up for play (max tick rate 0) at 2025.03.27-01.47.21
+[2025.03.27-06.47.21:562][419]LogWorld: Bringing up level for play took: 0.000428
+[2025.03.27-06.47.21:564][419]LogLoad: Took 0.054909 seconds to LoadMap(/Game/ThirdPerson/Maps/UEDPIE_0_Lobby)
+[2025.03.27-06.47.21:564][419]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/UEDPIE_0_Lobby
+[2025.03.27-06.47.22:271][503]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/ThirdPerson/Maps/Lobby"
+[2025.03.27-06.47.22:271][503]LogNet: Browse: /Game/ThirdPerson/Maps/Lobby
+[2025.03.27-06.47.22:271][503]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Lobby
+[2025.03.27-06.47.22:271][503]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Lobby
+[2025.03.27-06.47.22:272][503]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2025.03.27-06.47.22:272][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.27-06.47.22:326][503]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.27-06.47.22:327][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.03.27-06.47.22:329][503]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Lobby
+[2025.03.27-06.47.22:330][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000975s)
+[2025.03.27-06.47.22:330][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Lobby.Lobby to /Game/ThirdPerson/Maps/UEDPIE_0_Lobby.Lobby (0.001013s)
+[2025.03.27-06.47.22:330][503]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lobby'.
+[2025.03.27-06.47.22:330][503]LogChaosDD: Creating Chaos Debug Draw Scene for world Lobby
+[2025.03.27-06.47.22:331][503]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2025.03.27-06.47.22:331][503]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.03.27-06.47.22:332][503]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Lobby.Lobby up for play (max tick rate 0) at 2025.03.27-01.47.22
+[2025.03.27-06.47.22:332][503]LogWorld: Bringing up level for play took: 0.000420
+[2025.03.27-06.47.22:335][503]LogLoad: Took 0.063845 seconds to LoadMap(/Game/ThirdPerson/Maps/UEDPIE_0_Lobby)
+[2025.03.27-06.47.22:335][503]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/ThirdPerson/Maps/UEDPIE_0_Lobby
+[2025.03.27-06.47.23:671][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.27-06.47.23:671][659]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Lobby
+[2025.03.27-06.47.23:671][659]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2025.03.27-06.47.23:671][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.27-06.47.23:674][659]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.27-06.47.23:679][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.27-06.47.23:691][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.27-06.47.23:692][659]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.03.27-06.47.23:692][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.03.27-06.47.23:694][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.03.27-06.47.23:699][659]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.03.27-06.47.23:748][661]LogPlayLevel: Display: Destroying online subsystem :Context_6
