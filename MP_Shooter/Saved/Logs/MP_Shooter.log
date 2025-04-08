@@ -1658,3 +1658,22 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.04.08-22.20.04:260][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
 [2025.04.08-22.20.04:269][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
 [2025.04.08-22.20.04:281][168]LogFileHelpers: InternalPromptForCheckoutAndSave took 99.939 ms (total: 298.423 ms)
+[2025.04.08-22.20.35:482][810]LogDerivedDataCache: C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.04.08-22.22.05:943][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.08-22.22.05:987][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.04.08-22.22.05:997][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.04.08-22.22.06:007][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.04.08-22.22.06:010][ 25]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HF/YFYBQ72OYLHJQS0TSSXGBV
+[2025.04.08-22.22.06:010][ 25]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/KTS_MP_Shooter/MP_Shooter/Saved/YFYBQ72OYLHJQS0TSSXGBV554455CA4952F78FAF90F2BE51410568.tmp' to '../../../../../../Users/scott/Desktop/KTS_MP_Shooter/MP_Shooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HF/YFYBQ72OYLHJQS0TSSXGBV.uasset'
+[2025.04.08-22.22.06:012][ 25]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2
+[2025.04.08-22.22.06:012][ 25]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/KTS_MP_Shooter/MP_Shooter/Saved/O43ETCZTFMLWWH1CJ941H21372851A4CB80A60B78E468DC84D68C4.tmp' to '../../../../../../Users/scott/Desktop/KTS_MP_Shooter/MP_Shooter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset'
+[2025.04.08-22.22.06:025][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.192 ms (total: 380.615 ms)
+[2025.04.08-22.22.06:076][ 25]LogContentValidation: Display: Starting to validate 2 assets
+[2025.04.08-22.22.06:076][ 25]LogContentValidation: Enabled validators:
+[2025.04.08-22.22.06:076][ 25]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.08-22.22.06:076][ 25]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.08-22.22.06:076][ 25]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.08-22.22.06:076][ 25]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.08-22.22.06:076][ 25]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.08-22.22.06:076][ 25]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.08-22.22.06:076][ 25]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
