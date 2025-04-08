@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "KTS_Shooter",
+			"Path": "..\\Source\\KTS_Shooter.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "KTS_ShooterEditor",
+			"Path": "..\\Source\\KTS_ShooterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
