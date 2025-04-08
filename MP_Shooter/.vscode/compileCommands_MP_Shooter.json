@@ -1,0 +1,58 @@
+[
+	{
+		"file": "C:\\Users\\scott\\Desktop\\KTS_MP_Shooter\\MP_Shooter\\Source\\MP_Shooter\\MP_Shooter.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\scott\\Desktop\\KTS_MP_Shooter\\MP_Shooter\\.vscode\\compileCommands_MP_Shooter\\MP_Shooter.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\scott\\Desktop\\KTS_MP_Shooter\\MP_Shooter\\Source\\MP_Shooter\\MP_Shooter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\scott\\Desktop\\KTS_MP_Shooter\\MP_Shooter\\.vscode\\compileCommands_MP_Shooter\\MP_Shooter.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\scott\\Desktop\\KTS_MP_Shooter\\MP_Shooter\\Source\\MP_Shooter\\MP_Shooter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\scott\\Desktop\\KTS_MP_Shooter\\MP_Shooter\\.vscode\\compileCommands_MP_Shooter\\MP_Shooter.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\scott\\Desktop\\KTS_MP_Shooter\\MP_Shooter\\Source\\MP_Shooter\\MP_ShooterCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\scott\\Desktop\\KTS_MP_Shooter\\MP_Shooter\\.vscode\\compileCommands_MP_Shooter\\MP_Shooter.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\scott\\Desktop\\KTS_MP_Shooter\\MP_Shooter\\Source\\MP_Shooter\\MP_ShooterCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\scott\\Desktop\\KTS_MP_Shooter\\MP_Shooter\\.vscode\\compileCommands_MP_Shooter\\MP_Shooter.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\scott\\Desktop\\KTS_MP_Shooter\\MP_Shooter\\Source\\MP_Shooter\\MP_ShooterGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\scott\\Desktop\\KTS_MP_Shooter\\MP_Shooter\\.vscode\\compileCommands_MP_Shooter\\MP_Shooter.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\scott\\Desktop\\KTS_MP_Shooter\\MP_Shooter\\Source\\MP_Shooter\\MP_ShooterGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\scott\\Desktop\\KTS_MP_Shooter\\MP_Shooter\\.vscode\\compileCommands_MP_Shooter\\MP_Shooter.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	}
+]

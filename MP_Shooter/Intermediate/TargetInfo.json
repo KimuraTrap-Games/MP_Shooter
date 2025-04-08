@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MP_Shooter",
+			"Path": "..\\Source\\MP_Shooter.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MP_ShooterEditor",
+			"Path": "..\\Source\\MP_ShooterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
