@@ -1,1 +1,15 @@
+# Unreal Engine asset files
 *.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
+*.ubulk filter=lfs diff=lfs merge=lfs -text
+# Shader bytecode
+*.ushaderbytecode filter=lfs diff=lfs merge=lfs -text
+# Debug symbols and program database files
+*.pdb filter=lfs diff=lfs merge=lfs -text
+# Unreal packaged content
+*.pak filter=lfs diff=lfs merge=lfs -text
+*.ucas filter=lfs diff=lfs merge=lfs -text
+*.utoc filter=lfs diff=lfs merge=lfs -text
+# Optional: cooked binaries or cooked shader cache
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
