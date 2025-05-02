@@ -19,7 +19,7 @@ DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 // AMP_ShooterCharacter
 
 AMP_ShooterCharacter::AMP_ShooterCharacter()
-	CreateSessionCompleteDelegate(FOnCreateSessionCompleteDelegate::CreateUObject(this, &ThisClass::OnCreateSessionComplete))
+	: CreateSessionCompleteDelegate(FOnCreateSessionCompleteDelegate::CreateUObject(this, &ThisClass::OnCreateSessionComplete))
 {
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -120,7 +120,7 @@ void AMP_ShooterCharacter::CreateGameSession()
 		return;
 	}
 
-	auto ExitstingSession = OnlineSessionInterface->GetNamedSession(NAME_GameSession);
+	auto ExistingSession = OnlineSessionInterface->GetNamedSession(NAME_GameSession);
 	if(ExistingSession != nullptr)
 	{
 		// If a session already exists, destroy it before creating a new one
@@ -130,8 +130,36 @@ void AMP_ShooterCharacter::CreateGameSession()
 	OnlineSessionInterface->AddOnCreateSessionCompleteDelegate_Handle(CreateSessionCompleteDelegate);
 
 	TSharedPtr<FOnlineSessionSettings> SessionSettings = MakeShareable(new FOnlineSessionSettings());
-	const ULocalPlayer* LocalPlayer = GetWorld()=>GetFirstLocalPlayerFromController();
+	SessionSettings->bIsLANMatch = false; // Set to true for LAN games, false for online games
+	SessionSettings->NumPublicConnections = 4; // Set the number of public connections allowed in the session
+	SessionSettings->bAllowJoinInProgress = true; // Allow players to join in progress
+	SessionSettings->bAllowJoinViaPresence = true; // Allow players to join via presence
+	SessionSettings->bShouldAdvertise = true; // Advertise the session to others
+	SessionSettings->bUsesPresence = true; // Use presence for this session
+	
+	const ULocalPlayer* LocalPlayer = GetWorld()->GetFirstLocalPlayerFromController();
 	OnlineSessionInterface->CreateSession(*LocalPlayer->GetPreferredUniqueNetId(), NAME_GameSession, *SessionSettings);
+}
+
+void AMP_ShooterCharacter::OnCreateSessionComplete(FName SessionName, bool bWasSuccessful)
+{
+	if (bWasSuccessful)
+	{
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.f, 
+				FColor::Green, 
+				FString::Printf(TEXT("Created session: %s"), *SessionName.ToString()
+			));
+		}
+	}
+	else
+	{
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Failed to create session"));
+		}
+	}
 }
 
 void AMP_ShooterCharacter::Move(const FInputActionValue& Value)
