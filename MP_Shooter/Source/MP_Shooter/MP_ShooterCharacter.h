@@ -5,7 +5,10 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
+#include "Interfaces/OnlineSessionInterface.h"
+
 #include "MP_ShooterCharacter.generated.h"
+
 
 class USpringArmComponent;
 class UCameraComponent;
@@ -72,6 +75,15 @@ public:
 public:
 
 	//Pointer to the Online Session Interface
-	TSharedPtr<class IOnlineSession, ESPMode::ThreadSafe> OnlineSessionInterface;
-};
+	IOnlineSessionPtr OnlineSessionInterface;
 
+protected:
+	UFUNCTION(BlueprintCallable)
+	void CreateGameSession();
+
+	void OnCreateSessionComplete(FName SessionName, bool bWasSuccessful);
+
+private:
+
+	FOnCreateSessionCompleteDelegate CreateSessionCompleteDelegate;
+};

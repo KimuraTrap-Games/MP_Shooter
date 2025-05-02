@@ -20,9 +20,43 @@ MP_SHOOTER_API UClass* Z_Construct_UClass_AMP_ShooterCharacter_NoRegister();
 UPackage* Z_Construct_UPackage__Script_MP_Shooter();
 // End Cross Module References
 
+// Begin Class AMP_ShooterCharacter Function CreateGameSession
+struct Z_Construct_UFunction_AMP_ShooterCharacter_CreateGameSession_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MP_ShooterCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMP_ShooterCharacter_CreateGameSession_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMP_ShooterCharacter, nullptr, "CreateGameSession", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMP_ShooterCharacter_CreateGameSession_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMP_ShooterCharacter_CreateGameSession_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_AMP_ShooterCharacter_CreateGameSession()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AMP_ShooterCharacter_CreateGameSession_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AMP_ShooterCharacter::execCreateGameSession)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->CreateGameSession();
+	P_NATIVE_END;
+}
+// End Class AMP_ShooterCharacter Function CreateGameSession
+
 // Begin Class AMP_ShooterCharacter
 void AMP_ShooterCharacter::StaticRegisterNativesAMP_ShooterCharacter()
 {
+	UClass* Class = AMP_ShooterCharacter::StaticClass();
+	static const FNameNativePtrPair Funcs[] = {
+		{ "CreateGameSession", &AMP_ShooterCharacter::execCreateGameSession },
+	};
+	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
 IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AMP_ShooterCharacter);
 UClass* Z_Construct_UClass_AMP_ShooterCharacter_NoRegister()
@@ -114,6 +148,10 @@ struct Z_Construct_UClass_AMP_ShooterCharacter_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_LookAction;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
+	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_AMP_ShooterCharacter_CreateGameSession, "CreateGameSession" }, // 2898799373
+	};
+	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMP_ShooterCharacter>::IsAbstract,
 	};
@@ -144,11 +182,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AMP_ShooterCharacter_St
 	"Game",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
-	nullptr,
+	FuncInfo,
 	Z_Construct_UClass_AMP_ShooterCharacter_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
-	0,
+	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_AMP_ShooterCharacter_Statics::PropPointers),
 	0,
 	0x008000A4u,
@@ -174,10 +212,10 @@ AMP_ShooterCharacter::~AMP_ShooterCharacter() {}
 struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_KTS_MP_Shooter_MP_Shooter_Source_MP_Shooter_MP_ShooterCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMP_ShooterCharacter, AMP_ShooterCharacter::StaticClass, TEXT("AMP_ShooterCharacter"), &Z_Registration_Info_UClass_AMP_ShooterCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMP_ShooterCharacter), 91337059U) },
+		{ Z_Construct_UClass_AMP_ShooterCharacter, AMP_ShooterCharacter::StaticClass, TEXT("AMP_ShooterCharacter"), &Z_Registration_Info_UClass_AMP_ShooterCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMP_ShooterCharacter), 1311662670U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_KTS_MP_Shooter_MP_Shooter_Source_MP_Shooter_MP_ShooterCharacter_h_264315868(TEXT("/Script/MP_Shooter"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_KTS_MP_Shooter_MP_Shooter_Source_MP_Shooter_MP_ShooterCharacter_h_3969607217(TEXT("/Script/MP_Shooter"),
 	Z_CompiledInDeferFile_FID_Users_scott_Desktop_KTS_MP_Shooter_MP_Shooter_Source_MP_Shooter_MP_ShooterCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_KTS_MP_Shooter_MP_Shooter_Source_MP_Shooter_MP_ShooterCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
