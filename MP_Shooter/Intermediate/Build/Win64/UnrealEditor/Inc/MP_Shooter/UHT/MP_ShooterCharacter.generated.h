@@ -15,6 +15,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define MP_SHOOTER_MP_ShooterCharacter_generated_h
 
 #define FID_Users_scott_Desktop_KTS_MP_Shooter_MP_Shooter_Source_MP_Shooter_MP_ShooterCharacter_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execJoinGameSession); \
 	DECLARE_FUNCTION(execCreateGameSession);
 
 
