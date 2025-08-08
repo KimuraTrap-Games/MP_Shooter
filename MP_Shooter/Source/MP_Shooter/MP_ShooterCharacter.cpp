@@ -139,6 +139,7 @@ void AMP_ShooterCharacter::CreateGameSession()
 	SessionSettings->bShouldAdvertise = true; // Advertise the session to others
 	SessionSettings->bUsesPresence = true; // Use presence for this session
 	SessionSettings->bUseLobbiesIfAvailable = true; // Use lobbies if available
+	SessionSettings->Set(FName("MatchType"), FString("FreeForAll"), EOnlineDataAdvertisementType::ViaOnlineServiceAndPing);
 	
 	const ULocalPlayer* LocalPlayer = GetWorld()->GetFirstLocalPlayerFromController();
 	OnlineSessionInterface->CreateSession(*LocalPlayer->GetPreferredUniqueNetId(), NAME_GameSession, *SessionSettings);
@@ -174,6 +175,12 @@ void AMP_ShooterCharacter::OnCreateSessionComplete(FName SessionName, bool bWasS
 				FString::Printf(TEXT("Created session: %s"), *SessionName.ToString()
 			));
 		}
+
+		UWorld* World = GetWorld();
+		if (World)
+		{
+			World->ServerTravel(FString("/Game/Maps/Lobby?listen"));
+		}
 	}
 	else
 	{
@@ -186,15 +193,36 @@ void AMP_ShooterCharacter::OnCreateSessionComplete(FName SessionName, bool bWasS
 
 void AMP_ShooterCharacter::OnFindSessionsComplete(bool bWasSuccessful)
 {
-	for (auto Result : SessionSearch->SearchResults)
-	{
-		auto Id = Result.GetSessionIdStr();
-		FString User = Result.Session.OwningUserName;
-		if (GEngine)
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Green, FString::Printf(TEXT("Id: %s, User: %s"), *Id, *User));
-		}
-	}
+    if (!bWasSuccessful || !SessionSearch.IsValid())
+    {
+        if (GEngine)
+        {
+            GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Session search failed or invalid."));
+        }
+        return;
+    }
+
+    for (const auto& Result : SessionSearch->SearchResults)
+    {
+        FString Id = Result.GetSessionIdStr();
+        FString User = Result.Session.OwningUserName;
+        FString MatchType;
+
+        Result.Session.SessionSettings.Get(FName("MatchType"), MatchType);
+
+        if (GEngine)
+        {
+            GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Green, FString::Printf(TEXT("Id: %s, User: %s, MatchType: %s"), *Id, *User, *MatchType));
+        }
+
+        if (MatchType == FString("FreeForAll"))
+        {
+            if (GEngine)
+            {
+                GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Green, FString::Printf(TEXT("Joining Match Type: %s"), *MatchType));
+            }
+        }
+    }
 }
 
 void AMP_ShooterCharacter::Move(const FInputActionValue& Value)
